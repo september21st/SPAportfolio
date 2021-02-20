@@ -57,3 +57,8 @@ article.project {
   justify-content: flex-start;
   align-items: center;
 }
+
+
+p{
+  margin: 0 0 5% 3%;
+}
