@@ -16,7 +16,7 @@ export default class extends AbstractView {
         </a>
         <p>
             <b>프로젝트 기간</b><br/>
-            2020.<br/> 
+            2020.10.26-2020-10.27<br/> 
             <b>사용기술</b><br/>
             HTML, CSS, JQuery, Oracle DB, Java<br/>
            <b>개인프로젝트</b>
