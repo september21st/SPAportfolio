@@ -1,8 +1,11 @@
 body {
   --nav-width: 200px;
   margin: 0 0 0 var(--nav-width);
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
+}
+b {
+  font-weight: 700;
 }
 
 .nav {
@@ -31,7 +34,26 @@ body {
   line-height: 1.5;
   font-weight: 500;
 }
-
+.project__link {
+  width: 30%;
+  margin-right: 2%;
+}
 a {
   color: #009579;
+}
+
+.project__thumbnail {
+  width: 100%;
+  border: #009579 1px solid;
+}
+
+i {
+  font-size: 2rem;
+}
+
+article.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }

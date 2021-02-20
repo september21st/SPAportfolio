@@ -1,15 +1,19 @@
 import About from './views/About.js';
+import Skils from './views/Skils.js';
+import Works from './views/Works.js';
+import contact from './views/Contact.js';
 
 const naviagteTo = url => {
   history.pushState(null, null, url);
   router();
 };
+
 const router = async () => {
   const routes = [
     { path: '/', view: About },
-    // { path: '/skils', view: () => console.log('viewing skils') },
-    // { path: '/works', view: () => console.log('viewing works') },
-    // { path: '/contact', view: () => console.log('viewing contact') },
+    { path: '/skils', view: Skils },
+    { path: '/works', view: Works },
+    { path: '/contact', view: contact },
   ];
 
   // Test each route for potential match
