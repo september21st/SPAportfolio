@@ -1,4 +1,4 @@
-# borachoi
+# Bora Choi
 
 (2021.02.20)
 webpack 없이 ES6모듈로 구현한 포트폴리오 사이트입니다. 
